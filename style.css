@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f77e;
+    margin: 0;
+}
+.header-text {
+
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 70px; /* Adds space between header and question */
+
+}
+
+.quiz-container, #result-container {
+    background: #ffffffc2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    font-weight: bolder;
+    color: #333;
+
+}
+
+.question-box {
+    background-color: rgba(174, 174, 213, 0.885);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bolder;
+    min-height: 50px;
+
+}
+
+.btn-container div {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #afbccceb;
+    color: rgba(255, 255, 255, 0.53);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.btn:hover {
+    background-color: #044385;
+}
+
+.checkbox {
+    margin-right: 10px;
+    color: black;
+
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: #29c94c;
+    color: white;
+    font-weight: bolder;
+}
+
+.wrong {
+    background-color: #d94352;
+    color: white;
+    font-weight: bolder;
+
+}
